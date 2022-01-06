@@ -38,7 +38,7 @@ class Chart extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 5,
-      margin: EdgeInsets.all(20),
+      margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: groupedTransactions.map((data) {
